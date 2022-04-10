@@ -1,7 +1,6 @@
 class PhoneNumber {
-    phoneNumber;
  
-    PhoneNumber(phoneNumber) {
+    constructor(phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

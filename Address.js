@@ -1,11 +1,6 @@
 class Address {
-    street;
-    city;
-    state;
-    zipCode;
-    country;
 
-    Address(street, city, state, zipCode, country) {
+    constructor(street, city, state, zipCode, country) {
         this.street = street;
         this.city = city;
         this.state = state;

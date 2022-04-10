@@ -1,11 +1,10 @@
 class Email {
-    email;
 
-    Email(email) {
+    constructor(email) {
         this.email = email;
     }
 
-    getEmail = () => {
+    getEmail() {
         return this.email;
     }
 }
