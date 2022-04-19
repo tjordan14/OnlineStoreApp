@@ -13,5 +13,13 @@ namespace GithubActionsLab
             String[] test = new string[0] {"test"};
             Assert.AreEqual(weekDays, test);
         }
+        
+        [Test]
+        public void Add_Email()
+        {
+            String[] weekDays = new string[0] {"test"}; 
+            String[] test = new string[0] {"test"};
+            Assert.AreEqual(weekDays, test);
+        }
     }
 }
