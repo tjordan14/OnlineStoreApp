@@ -9,7 +9,7 @@ class User {
         this.firstName = firstName;
         this.address = address;
         this.email = email;
-        this.phoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumbers;
     }
 
     getLast() {
@@ -32,4 +32,15 @@ class User {
         return this.phoneNumber;
     }
 
+    addPhoneNumber(newPhoneNumber) {
+        this.phoneNumber.addPhoneNumber(newPhoneNumber);
+    }
+
+    addEmail(newEmail) {
+        this.email.addEmail(newEmail);
+    }
+
+    addAddress(newAddress) {
+        this.address.addAddress(newAddress);
+    }
 }

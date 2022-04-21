@@ -75,6 +75,12 @@ class Item {
         return this.category;
     }
 
+    getItemByName(itemName) {
+        //TODO: Add code to access database, get relevant values to fulfill the constraints of a new item
+        return newItem;
+    }
 
-
+    getPriceAfterSale(itemName) {
+        //TODO: Calculate the new price of the item based on whether or not it is on sale
+    }
 }
