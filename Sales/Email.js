@@ -1,7 +1,7 @@
 class Email {
 
     constructor(email) {
-        this.email = email;
+        this.email = new Array(email);
     }
 
     getEmail() {
@@ -9,7 +9,7 @@ class Email {
     }
 
     addEmail(newEmail) {
-        //TODO: Add and email to email list
-        this.email.add(newEmail);
+        this.email.push(newEmail);
     }
 }
+module.exports = Email;
